@@ -1,19 +1,21 @@
 {
   "name": "web-toolkit-base",
   "private": true,
-  "version": "0.0.0",
   "author": "",
   "license": "ISC",
   "description": "Uma biblioteca de ferramentas para desenvolvimento web.",
-  "main": "index.js",
   "scripts": {
+    "clean": "lerna clean --yes & rm -rfv yarn* node_modules && yarn cache clean -f",
+    "lerna": "lerna",
+    "dev": "lerna run dev --parallel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "lerna": "^4.0.0"
   },
   "workspaces": [
-    "./apps/*",
-    "./packages/*"
+    "frontend/*",
+    "packages/*"
   ]
 }
