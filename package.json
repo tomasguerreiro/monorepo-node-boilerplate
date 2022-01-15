@@ -1,0 +1,12 @@
+{
+  "name": "web-toolkit-base",
+  "version": "0.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "Uma biblioteca de ferramentas para desenvolvimento web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+}
