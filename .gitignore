@@ -70,3 +70,6 @@ yalc.lock
 # React
 .DS_Store
 *.pem
+
+# Compiled files produced by build process
+dist/
