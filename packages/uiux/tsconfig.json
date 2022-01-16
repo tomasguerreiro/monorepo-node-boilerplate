@@ -1,26 +1,8 @@
 {
+  "extends": "@web-toolkit-base/tsconfig/library.json",
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "outDir": "dist",
-    "allowJs": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "jsx": "react",
-    "removeComments": true,
-    "baseUrl": "./src"
+    "outDir": "dist"
   },
-  "compileOnSave": true,
   "include": ["src"],
   "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*tests"]
 }
