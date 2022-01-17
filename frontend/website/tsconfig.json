@@ -1,0 +1,9 @@
+{
+  "extends": "@web-toolkit-base/tsconfig/nextjs.json",
+  "compilerOptions": {
+    "paths": {
+      "@web-toolkit-base/*": ["../../packages/*/src/"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}

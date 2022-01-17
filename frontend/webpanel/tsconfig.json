@@ -1,0 +1,9 @@
+{
+  "extends": "@web-toolkit-base/tsconfig/cra.json",
+  "compilerOptions": {
+    "paths": {
+      "@web-toolkit-base/*": ["../../packages/*/src/"]
+    }
+  },
+  "include": ["src"]
+}

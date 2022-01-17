@@ -1,0 +1,8 @@
+{
+  "extends": "@web-toolkit-base/tsconfig/library.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*tests"]
+}

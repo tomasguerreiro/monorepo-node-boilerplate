@@ -43,8 +43,6 @@ web_modules/
 .npm
 
 ### yalc ###
-# yalc
-# https://www.npmjs.com/package/yalc/v/1.0.0-pre.17#keep-it-out-of-git
 
 .yalc
 yalc.lock
@@ -58,20 +56,20 @@ yalc.lock
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-
-# if you are NOT using Zero-installs, then:
-# comment the following lines
 !.yarn/cache
 
 # and uncomment the following lines
 # .pnp.*
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
 .env.local
 
+# React
+.DS_Store
+*.pem
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,yarn,yalc
+# Compiled files produced by build process
+dist/
