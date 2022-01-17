@@ -1,3 +1,3 @@
-# web-toolkit-base
+# monorepo-lerna
 
 Uma biblioteca de ferramentas para desenvolvimento web.

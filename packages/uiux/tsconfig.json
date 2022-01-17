@@ -1,5 +1,5 @@
 {
-  "extends": "@web-toolkit-base/tsconfig/library.json",
+  "extends": "@monorepo-lerna/tsconfig/library.json",
   "compilerOptions": {
     "outDir": "dist"
   },

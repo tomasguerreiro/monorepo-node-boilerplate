@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit-base/uiux",
+  "name": "@monorepo-lerna/uiux",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",

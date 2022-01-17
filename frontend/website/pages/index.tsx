@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-import { Button } from "@web-toolkit-base/uiux";
+import { Button } from "@monorepo-lerna/uiux";
 
 const Home: NextPage = () => {
   return (
