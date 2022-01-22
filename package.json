@@ -8,6 +8,7 @@
     "clean": "lerna clean --yes & rm -rfv yarn* node_modules && yarn cache clean -f",
     "lerna": "lerna",
     "dev": "lerna run dev --parallel",
+    "lint": "lerna run lint --stream",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
