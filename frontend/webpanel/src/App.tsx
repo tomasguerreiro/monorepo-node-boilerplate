@@ -1,7 +1,7 @@
 import React from "react";
+import { Button } from "@monorepo-lerna/uiux";
 import logo from "./logo.svg";
 import "./App.css";
-import { Button } from "@monorepo-lerna/uiux";
 
 function App() {
   return (

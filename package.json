@@ -8,6 +8,7 @@
     "clean": "node scripts/clean.js && yarn cache clean -f",
     "lerna": "lerna",
     "dev": "lerna run dev --parallel",
+    "lint": "lerna run lint --stream",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
