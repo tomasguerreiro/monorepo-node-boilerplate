@@ -1,9 +1,9 @@
-import React from 'react';
-import { Button } from '@monorepo-lerna/uiux';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Button } from "@monorepo-lerna/uiux";
+import logo from "./logo.svg";
+import "./App.css";
 
-export function Apps() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -26,4 +26,4 @@ export function Apps() {
   );
 }
 
-// export default App;
+export default App;
