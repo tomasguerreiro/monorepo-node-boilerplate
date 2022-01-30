@@ -5,7 +5,7 @@
   "license": "ISC",
   "description": "Uma biblioteca de ferramentas para desenvolvimento web.",
   "scripts": {
-    "clean": "lerna clean --yes & rm -rfv yarn* node_modules && yarn cache clean -f",
+    "clean": "node scripts/clean.js && yarn cache clean -f",
     "lerna": "lerna",
     "dev": "lerna run dev --parallel",
     "lint": "lerna run lint --stream",
