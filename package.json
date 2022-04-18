@@ -21,6 +21,7 @@
   },
   "workspaces": [
     "frontend/*",
+    "backend/*",
     "packages/*",
     "mobile/*"
   ]
