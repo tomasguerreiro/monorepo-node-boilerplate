@@ -1,6 +1,6 @@
 {
-  "version": "0.0.106",
+  "version": "0.0.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "packages": ["packages/*", "frontend/*", "mobile/*"]
+  "packages": ["packages/*", "frontend/*", "backend/*", "mobile/*"]
 }
