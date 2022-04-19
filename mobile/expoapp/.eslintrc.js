@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@monorepo-lerna/eslint-config/native'],
+  extends: ['@monorepo/eslint-config/native'],
 };

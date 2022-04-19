@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@monorepo-lerna/uiux";
+import { Button } from "@monorepo/uiux";
 import logo from "./logo.svg";
 import "./App.css";
 

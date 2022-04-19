@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@monorepo-lerna/eslint-config/prettier'),
+  ...require("@monorepo/eslint-config/prettier"),
 };

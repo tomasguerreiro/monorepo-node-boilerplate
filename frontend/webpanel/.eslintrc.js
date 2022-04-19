@@ -1,5 +1,5 @@
-// module.exports = require("@monorepo-lerna/lint/cra");
+// module.exports = require("@monorepo/lint/cra");
 module.exports = {
-  extends: ['@monorepo-lerna/eslint-config/cra'],
+  extends: ["@monorepo/eslint-config/cra"],
   rules: {},
 };

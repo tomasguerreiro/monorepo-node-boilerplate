@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-lerna/expoapp",
+  "name": "@monorepo/expoapp",
   "version": "0.0.0",
   "main": "index.js",
   "private": true,

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@monorepo-lerna/eslint-config/next'],
+  extends: ['@monorepo/eslint-config/next'],
 };

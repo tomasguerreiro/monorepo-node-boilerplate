@@ -1,5 +1,5 @@
 {
-  "extends": "@monorepo-lerna/tsconfig/library.json",
+  "extends": "@monorepo/tsconfig/library.json",
   "compilerOptions": {
     "outDir": "dist",
     "baseUrl": "./src"

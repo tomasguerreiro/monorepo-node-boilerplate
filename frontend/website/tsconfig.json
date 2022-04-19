@@ -1,8 +1,8 @@
 {
-  "extends": "@monorepo-lerna/tsconfig/nextjs.json",
+  "extends": "@monorepo/tsconfig/nextjs.json",
   "compilerOptions": {
     "paths": {
-      "@monorepo-lerna/*": ["../../packages/*/src/"]
+      "@monorepo/*": ["../../packages/*/src/"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]

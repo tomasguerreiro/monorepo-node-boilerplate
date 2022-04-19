@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-lerna/uiux",
+  "name": "@monorepo/uiux",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "react-dom": ">=17"
   },
   "devDependencies": {
-    "@monorepo-lerna/eslint-config": "^0.0.0",
+    "@monorepo/eslint-config": "^0.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
