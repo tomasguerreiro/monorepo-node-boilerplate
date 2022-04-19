@@ -10,6 +10,8 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': 'off',
     'react/function-component-definition': 'off',
     'no-console': 'warn',
