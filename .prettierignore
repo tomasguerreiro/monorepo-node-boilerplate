@@ -1,7 +1,7 @@
 node_modules
 .*
-**/ios
-**/android
+ios
+android
 yarn.lock
 package-lock.json
 public

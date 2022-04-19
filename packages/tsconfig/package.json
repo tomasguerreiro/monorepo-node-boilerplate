@@ -8,6 +8,7 @@
   "files": [
     "base.json",
     "nextjs.json",
+    "nestjs.json",
     "cra.json",
     "library.json"
   ]
