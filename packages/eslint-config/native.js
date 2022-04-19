@@ -2,7 +2,7 @@ module.exports = {
   env: {
     es2021: true,
   },
-  extends: ['airbnb', 'plugin:react/recommended', 'prettier'],
+  extends: ['plugin:react/recommended', './base.js'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -10,9 +10,9 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react'],
   rules: {
-    'prettier/prettier': 'error',
+    // 'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
       'warn',
       {
@@ -24,6 +24,7 @@ module.exports = {
     'react/static-property-placement': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 'off',
+    'react/style-prop-object': 'off',
     'no-param-reassign': 'off',
     'no-console': 'off',
   },
