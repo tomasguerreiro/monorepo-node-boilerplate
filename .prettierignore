@@ -1,6 +1,7 @@
 node_modules
-.history
-.next
+.*
+**/ios
+**/android
 yarn.lock
 package-lock.json
 public
