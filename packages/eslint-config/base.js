@@ -1,11 +1,11 @@
 module.exports = {
+  extends: ['airbnb', 'prettier', 'plugin:@typescript-eslint/recommended'],
+  plugins: ['@typescript-eslint'],
+  parser: '@typescript-eslint/parser',
   env: {
     es2021: true,
     node: true,
   },
-  parser: '@typescript-eslint/parser',
-  extends: ['airbnb', 'prettier', 'plugin:@typescript-eslint/recommended'],
-  plugins: ['@typescript-eslint'],
   rules: {
     'import/extensions': 'off',
     'import/no-unresolved': 'off',

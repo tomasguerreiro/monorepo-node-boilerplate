@@ -1,11 +1,12 @@
 module.exports = {
+  extends: ['plugin:react/recommended', 'next', './base.js'],
+  plugins: ['react'],
+  parser: '@typescript-eslint/parser',
   env: {
     browser: true,
     es2021: true,
     node: true,
   },
-  extends: ['plugin:react/recommended', 'next', './base.js'],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -13,7 +14,6 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/jsx-props-no-spreading': 'off',
     'react/react-in-jsx-scope': 'off',
