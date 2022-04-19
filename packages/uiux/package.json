@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "tsc -w",
     "lint": "eslint 'src/**/*.{ts,tsx,js}' --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc:check": "tsc --noEmit --pretty"
   },
   "author": "",
   "license": "ISC",

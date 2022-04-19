@@ -11,7 +11,8 @@
     "dev:web": "lerna run web --parallel",
     "lint": "lerna run lint --stream",
     "format": "prettier --write '*/**/*.{ts,tsx,js,json}'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc:check": "lerna run tsc:check --stream"
   },
   "devDependencies": {
     "@types/react": "^17.0.38",
