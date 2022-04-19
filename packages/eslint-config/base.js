@@ -1,27 +1,32 @@
 module.exports = {
   env: {
-    browser: true,
     es2021: true,
     node: true,
   },
-  parser: "@typescript-eslint/parser",
-  extends: ["airbnb", "plugin:react/recommended", "prettier"],
-  plugins: ["react", "@typescript-eslint"],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: "latest",
-    sourceType: "module",
-  },
+  parser: '@typescript-eslint/parser',
+  extends: ['airbnb', 'prettier', 'plugin:@typescript-eslint/recommended'],
+  plugins: ['@typescript-eslint'],
   rules: {
-    "import/no-unresolved": "off",
-    "import/extensions": "off",
-    "import/prefer-default-export": "off",
-    "import/no-extraneous-dependencies": "warn",
-    "react/jsx-filename-extension": "off",
-    "react/react-in-jsx-scope": "off",
-    "react/function-component-definition": "off",
-    "react/jsx-props-no-spreading": "off",
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/function-component-definition': 'off',
+    'no-console': 'warn',
+    'no-use-before-define': 'off',
+    'import/no-extraneous-dependencies': [
+      'warn',
+      {
+        devDependencies: false,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
   },
+  // overrides: [
+  //   {
+  //     files: [],
+  //     rules: {},
+  //   },
+  // ],
 };

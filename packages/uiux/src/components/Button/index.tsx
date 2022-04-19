@@ -1,5 +1,3 @@
-import React from "react";
+import React from 'react';
 
-export const Button = () => {
-  return <button>Button</button>;
-};
+export const Button = () => <button type="button">Button</button>;
