@@ -1,4 +1,4 @@
-var fs = require("fs");
+var fs = require('fs');
 
 deleteFolderRecursive = (folderName, path) => {
   const root = process.cwd();
@@ -6,10 +6,10 @@ deleteFolderRecursive = (folderName, path) => {
   if (fs.existsSync(directory)) {
     files = fs.readdirSync(directory);
     files.forEach((file) => {
-      const curPath = directory + "/" + file;
-      if (curPath.endsWith("/" + folderName)) {
+      const curPath = directory + '/' + file;
+      if (curPath.endsWith('/' + folderName)) {
         fs.rmdirSync(curPath, { recursive: true, force: true });
-        console.info("removendo: " + curPath);
+        console.info('removendo: ' + curPath);
       } else {
         if (fs.lstatSync(curPath).isDirectory()) {
           deleteFolderRecursive(folderName, curPath);
@@ -19,7 +19,7 @@ deleteFolderRecursive = (folderName, path) => {
   }
 };
 
-deleteFolderRecursive("node_modules");
-deleteFolderRecursive("dist");
-deleteFolderRecursive("out");
-deleteFolderRecursive(".next");
+deleteFolderRecursive('node_modules');
+deleteFolderRecursive('dist');
+deleteFolderRecursive('out');
+deleteFolderRecursive('.next');

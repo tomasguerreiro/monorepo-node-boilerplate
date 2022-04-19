@@ -1,5 +1,5 @@
-import { StatusBar } from "expo-status-bar";
-import { Container, Title } from "./home-styled";
+import { StatusBar } from 'expo-status-bar';
+import { Container, Title } from './home-styled';
 
 export default function Home() {
   return (

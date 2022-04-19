@@ -10,7 +10,7 @@
     "dev": "lerna run dev --parallel",
     "dev:web": "lerna run web --parallel",
     "lint": "lerna run lint --stream",
-    "format": "prettier --check '*/**/*.{ts,tsx,js}'",
+    "format": "prettier --write '*/**/*.{ts,tsx,js}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
